@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bossfights</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game" class="main">
+        <div id="big">
+            <strong>Select Level:</strong><br>
+            <button onclick="loadLevel('MovementI')"><h3>Movement I</h3></button><button onclick="loadLevel('MovementII')"><h3>Movement II</h3></button><button onclick="loadLevel('MovementIII')"><h3>Movement III</h3></button><button onclick="loadLevel('MovementIV')"><h3>Movement IV</h3></button><br>
+            <button onclick="loadLevel('AimingI')"><h3>Aiming I</h3></button><button onclick="loadLevel('AimingII')"><h3>Aiming II</h3></button><button onclick="loadLevel('AimingIII')"><h3>Aiming III</h3></button><button onclick="loadLevel('AimingIV')"><h3>Aiming IV</h3></button><button onclick="loadLevel('AimingV')"><h3>Aiming V</h3></button><br>
+            <button onclick="loadLevel('TacticsI')"><h3>Tactics I</h3></button><button onclick="loadLevel('TacticsII')"><h3>Tactics II</h3></button><button onclick="loadLevel('TacticsIII')"><h3>Tactics III</h3></button><button onclick="loadLevel('TacticsIV')"><h3>Tactics IV</h3></button><br>
+            <button onclick="loadLevel('CombatI')"><h3>Combat I</h3></button><button onclick="loadLevel('CombatII')"><h3>Combat II</h3></button><button onclick="loadLevel('CombatIII')"><h3>Combat III</h3></button><button onclick="loadLevel('CombatIV')"><h3>Combat IV</h3></button><button onclick="loadLevel('CombatV')"><h3>Combat V</h3></button><button onclick="loadLevel('CombatVI')"><h3>Combat VI</h3></button><button onclick="loadLevel('CombatVII')"><h3>Combat VII</h3></button><br>
+            <button onclick="loadLevel('MeleeI')"><h3>Melee I</h3></button><button onclick="loadLevel('MeleeII')"><h3>Melee II</h3></button><button onclick="loadLevel('MeleeIII')"><h3>Melee III</h3></button><br>
+            <p>
+                <strong>Objective:</strong><br>
+                • Defeat all enemies <br>
+                • Reach the green checkpoint <br>
+                <strong>Controls:</strong><br>
+                WASD to move <br>
+                left click to use main weapon <br>
+                [SHIFT] to move slightly faster <br>
+                Q to toggle shield generator (if you have one) <br>
+                P to pause and input code to control your unit automatically <br>
+                <strong>Bugs:</strong><br>
+                • Standing on the ckeckpoint and dying when there is one enemy left makes you beat the level. <br>
+                • It may be possible to alter game variables from the code input. <br>
+                • The game runs in slow motion and some weapons aren't balanced properly yet. <br>
+            </p>
+        </div>
+    </div>
+    <div id="overlay">
+    </div>
+    <div id="controlPannel">
+    </div>
+    <div id="data">
+        
+    </div>
+</body>
+<script src="game.js"></script>
+
+
